@@ -364,3 +364,6 @@ List all users.
 5. **Get Paginated**: `GET http://localhost:5000/api/applications?page=2&limit=10`.
 6. **Test Bad ID (CastError)**: `GET http://localhost:5000/api/applications/bad-id-123` (returns 400).
 7. **Test Validation Error**: `POST http://localhost:5000/api/applications` with `{ "salary": -500 }` (returns 400 with field messages).
+
+#   j o b t r a c k r  
+ 
